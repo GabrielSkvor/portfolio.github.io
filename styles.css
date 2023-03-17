@@ -28,7 +28,7 @@ header {
   justify-content: space-between;
   align-items: center;
   background-color: #fff;
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 5px rgba (0, 0, 0, 0.1);
   height: 60px;
   padding: 0 20px;
   position: fixed;
@@ -39,7 +39,7 @@ header {
 }
 
 header nav {
-  display: flex;
+  display: block;
 }
 
 header nav a {
@@ -59,15 +59,15 @@ header nav a:hover {
   top: 60px;
   left: 0;
   width: 200px;
-  height: calc(100% - 60px);
+  height: calc (100% - 60px);
   background-color: #fff;
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 5px rgba (0, 0, 0, 0.1);
   padding: 20px;
   z-index: 999;
 }
 
 .sidebar a {
-  display: block;
+  display: flex;
   margin-bottom: 10px;
   font-size: 14px;
   letter-spacing: 1px;
