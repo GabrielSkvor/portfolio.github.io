@@ -41,6 +41,9 @@ header {
 header nav {
   display: block;
 }
+header Text {
+    text-align: center;
+}
 
 header nav a {
   padding: 0 10px;
