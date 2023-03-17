@@ -1,74 +1,59 @@
 <!DOCTYPE CSS>
-/* Set default styles for the page */
-* {
+/* Header navigation bar */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #333;
+  color: #fff;
+}
+
+header a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+header a:hover {
+  text-decoration: underline;
+}
+
+/* Side navigation bar */
+nav {
+  position: fixed;
+  top: 80px;
+  left: 0;
+  bottom: 0;
+  width: 200px;
+  padding: 20px;
+  background-color: #f2f2f2;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  overflow-y: auto;
+}
+
+nav ul {
+  list-style: none;
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
-  font-family: Arial, sans-serif;
 }
 
-/* Style the header section */
-header {
-  background-color: #222;
-  color: #fff;
-  padding: 20px;
-  text-align: center;
+nav li {
+  margin-bottom: 10px;
 }
 
-/* Style the main section */
-main {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
-}
-
-/* Style the heading in the main section */
-main h1 {
-  font-size: 3rem;
-  margin-bottom: 1rem;
-}
-
-/* Style the paragraph in the main section */
-main p {
-  font-size: 1.5rem;
-  margin-bottom: 2rem;
-  text-align: center;
-}
-
-/* Style the link to the project */
-main a {
-  background-color: #222;
-  color: #fff;
-  padding: 1rem 2rem;
-  text-decoration: none;
+nav a {
+  display: block;
+  padding: 10px;
   border-radius: 5px;
-  transition: background-color 0.3s ease-in-out;
-}
-
-/* Change the background color of the link on hover */
-main a:hover {
-  background-color: #fff;
-  color: #222;
-}
-
-/* Style the footer section */
-footer {
-  background-color: #222;
-  color: #fff;
-  padding: 20px;
-  text-align: center;
-}
-
-/* Style the link in the footer section */
-footer a {
-  color: #fff;
+  color: #333;
   text-decoration: none;
+  transition: background-color 0.2s ease;
 }
 
-/* Change the color of the link in the footer section on hover */
-footer a:hover {
-  color: #ccc;
+nav a:hover {
+  background-color: #333;
+  color: #fff;
 }
-
