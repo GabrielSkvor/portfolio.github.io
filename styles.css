@@ -41,11 +41,9 @@ header {
 header nav {
   display: block;
 }
-header Text {
-    text-align: center;
-}
 
 header nav a {
+  text-align: center;
   padding: 0 10px;
   font-weight: bold;
   letter-spacing: 1px;
