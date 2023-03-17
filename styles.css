@@ -52,31 +52,6 @@ header nav a:hover {
   background-color: #f7f7f7;
 }
 
-/* Sidebar Styles */
-
-.sidebar {
-  position: fixed;
-  top: 60px;
-  left: 0;
-  width: 200px;
-  height: calc (100% - 60px);
-  background-color: #fff;
-  box-shadow: 0 0 5px rgba (0, 0, 0, 0.1);
-  padding: 20px;
-  z-index: 999;
-}
-
-.sidebar a {
-  display: flex;
-  margin-bottom: 10px;
-  font-size: 14px;
-  letter-spacing: 1px;
-}
-
-.sidebar a:hover {
-  color: #222;
-}
-
 /* Main Content Styles */
 
 main {
